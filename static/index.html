@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Super Hero Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>______________________________</h1>
+    <h1 id="big-title">Find your next favorite superhero...</h1>
+
+
+    <select class="category-selector" id="search-category">
+        <option value="id">Id</option>
+        <option value="name">Name</option>
+        <option value="race">Race</option>
+        <option value="publisher">Publisher</option>
+        <option value="power">Power</option>
+      </select>
+
+      <input class="field"  type="text" id="search-input" placeholder="Search..." />
+      <input class="field" type="number" id="search-number" placeholder="Enter number of results" />
+
+
+        <button class="button" id="search-button">Search</button>
+
+        <h1>_________________________________</h1>
+        <h2>Like a few? Don't forget about them! Create a new list:</h2>
+        <input class="field" type="text" id="list-input" placeholder="List's Name" />
+        <input class="field" type="text" id="list-content" placeholder="Insert Info eg [1,2,3]" />
+        <p>To add to a list please create one first and then select "edit" to add/edit information to it.</p>
+
+
+        <select class="list-selector" id="list-category">
+            <option value="create">Create</option>
+            <option value="edit">Add/Edit Exisiting List</option>
+            <option value="view">View</option>
+            <option value="delete">Delete</option>
+          </select>
+
+        <button class="button" id="list-button">Save</button>
+        <p id="requested"></p>
+
+        <p id="listView"></p>
+
+
+
+
+    <ul id="superheroCards" class="card-list"></ul>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "se3316-batif-lab3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/batif1/se3316-batif-lab3.git)"
+  },
+  "author": "Bashshar Atif",
+  "license": "ISC",
+  "dependencies": {
+    "0g": "^0.0.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "lowdb": "^6.1.1",
+    "mongoose": "^8.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
